@@ -24,7 +24,6 @@ public class EmployeeTestList
         employeeList.add(employee1);
         employee1.raise(percentRaise);
 
-        System.out.println(employee1.getSalary());
         Employee employee2 = new Employee("Sparky", "134343", 20000.0);
         employeeList.add(employee2);
         employee2.raise(percentRaise);
@@ -38,41 +37,76 @@ public class EmployeeTestList
         Employee employee5 = new Employee("Mick", "134343", 20000.0);
         employeeList.add(employee5);
 
-        System.out.println("The total number of employees: "
-                + Employee.getNumEmployees() + "\n\n");
 
+        System.out.println(employeeList.toString());
+        employeeList.raise(percentRaise);
         System.out.println(employeeList.toString());
 
     }
 }
 /**********
- * The Run******* Please type in new employee's name David Lee Roth Please type
- * in new employee's SSN 234234234 Please type in new employee's Salary 1000000
- * 
- * 
- * 
- * Please type in new employee's name Eddie Van Halen Please type in new
- * employee's SSN 345345345 Please type in new employee's Salary 2000000
- * 
- * 
- * 
- * Please type in new employee's name Axl Rose Please type in new employee's SSN
- * 456456456 Please type in new employee's Salary 3000000
- * 
- * 
- * 
- * Please type in new employee's name Exene Cervenka Please type in new
- * employee's SSN 567567567 Please type in new employee's Salary 4000000
- * 
- * 
- * 
- * Name: David Lee Roth SSN#: 234234234 Salary: $1000000.0
- * 
- * Name: Eddie Van Halen SSN#: 345345345 Salary: $2000000.0
- * 
- * Name: Axl Rose SSN#: 456456456 Salary: $3000000.0
- * 
- * Name: Exene Cervenka SSN#: 567567567 Salary: $4000000.0
- * 
- * The Total Number of Employees: 4
+  Name: Brent
+SSN#: 123123
+Salary: $15000.0
+Bonus: $1.0
+Title Mr. or Ms. dufus
+
+ Name: Tommy
+SSN#: 123123
+Salary: $15000.0
+Boss: Mr. or Ms. dufus
+Department: naval reflection
+
+ Name: Ted
+SSN#: 123123
+Salary: $15000.0
+
+ Name: Sparky
+SSN#: 134343
+Salary: $30000.0
+
+ Name: Axl
+SSN#: 123123
+Salary: $10000.0
+
+ Name: Eddie
+SSN#: 134343
+Salary: $20000.0
+
+ Name: Mick
+SSN#: 134343
+Salary: $20000.0
+
+
+ Name: Brent
+SSN#: 123123
+Salary: $22500.0
+Bonus: $1.0
+Title Mr. or Ms. dufus
+
+ Name: Tommy
+SSN#: 123123
+Salary: $22500.0
+Boss: Mr. or Ms. dufus
+Department: naval reflection
+
+ Name: Ted
+SSN#: 123123
+Salary: $22500.0
+
+ Name: Sparky
+SSN#: 134343
+Salary: $45000.0
+
+ Name: Axl
+SSN#: 123123
+Salary: $15000.0
+
+ Name: Eddie
+SSN#: 134343
+Salary: $30000.0
+
+ Name: Mick
+SSN#: 134343
+Salary: $30000.0
  */

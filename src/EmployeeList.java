@@ -77,4 +77,17 @@ public class EmployeeList
         }
         return value;
     }
+    
+    public void raise(double percentRaise)
+    {
+    	EmployeeListNode temp = first;
+        while (temp != null)
+        {
+             Employee employee = (Employee)temp.getData();
+             employee.raise(percentRaise);
+             
+            temp = temp.getNext(); // move along to next node in the list
+        }
+    }
+
 }

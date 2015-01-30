@@ -9,7 +9,10 @@ public class Employee
     private String name; // Holds the employee name
     private double salary;
     private String ssn;
-
+    /**
+     * Calculates a percentage raise and adds it to salary 
+     * @param percentRaise
+     */
     public void raise(double percentRaise)
     {
         this.salary = this.salary + this.salary * percentRaise;
