@@ -39,8 +39,7 @@ public class Manager extends Employee
     @Override
     public String toString()
     {
-        String result = "Name: " + this.getName() + "\nSSN#: " + this.getSsn()
-                + "\nSalary: $" + this.getSalary() + "\nBonus: $"
+        String result = super.toString() + "Bonus: $"
                 + this.getBonus() + "\nTitle Mr. or Ms. " + this.getTitle()
                 + "\n";
         return result;

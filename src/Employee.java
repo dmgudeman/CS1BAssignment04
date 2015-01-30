@@ -6,9 +6,9 @@
 public class Employee
 {
     private static int numEmployees = 0; // counter for number of employees
-    protected String name; // Holds the employee name
-    protected double salary;
-    protected String ssn;
+    private String name; // Holds the employee name
+    private double salary;
+    private String ssn;
 
     public void raise(double percentRaise)
     {
